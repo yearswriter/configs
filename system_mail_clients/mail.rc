@@ -1,0 +1,7 @@
+#/etc/mail.rc
+set smtp=smtps://smtp.mail.ex:465
+set smtp-auth=login
+set smtp-auth-user=[LOGIN@MAIL.DOMEN]
+set smtp-auth-password=[PASSWORD]
+set ssl-verify=ignore
+set nss-config-dir=/etc/pki/nssdb/
